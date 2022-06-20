@@ -1,0 +1,7 @@
+{
+  "name": "prjCalculadora",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
