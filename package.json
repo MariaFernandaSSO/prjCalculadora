@@ -1,0 +1,22 @@
+{
+  "name": "3e_gb_pamii_0620",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de um aplicativo de calculadora com Ionic onde o objetivo é revisar a integração da interface gráfica (UI/UX) com o back-end (programação)",
+  "main": "index.js",
+  "scripts": {
+    "gitconfig":"git config --local user.name 'Maria Fernanda Oliveira'; git config --local user.email 'mariafernanda.oliveira281@gmail.com'",
+    "ionici": "npm i -g @ionic/cli",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/mariafernandasso281/3e_gb_pamii_0620.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/mariafernandasso281/3e_gb_pamii_0620/issues"
+  },
+  "homepage": "https://gitlab.com/mariafernandasso281/3e_gb_pamii_0620#readme"
+}
