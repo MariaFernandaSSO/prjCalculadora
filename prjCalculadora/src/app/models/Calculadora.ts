@@ -26,15 +26,15 @@ export class Calculadora {
     // gets
 
     public get numero1(): number {
-      return this.numero1
+      return this._numero1
     }
 
     public get numero2(): number {
-      return this.numero2
+      return this._numero2
     }
 
     public get operacao(): string {
-      return this.operacao
+      return this._operacao
     }
 
     // operacoes matematicas - métodos
