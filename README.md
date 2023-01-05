@@ -1,4 +1,4 @@
-# 3e_gb_pamii_0620
+# Projeto calculadora
 
 Desenvolvimento de um aplicativo de calculadora com Ionic onde o objetivo é revisar a integração da interface gráfica (UI/UX) com o back-end (programação)
 
