@@ -9,32 +9,32 @@
 <ion-content [fullscreen]="true" class="ion-padding">
     <ion-item>
       <ion-label position="floating">Número 1</ion-label>
-      <ion-input type="number"></ion-input>
+      <ion-input [(ngModel)]="calculadora.numero1" type="number"></ion-input>
     </ion-item>
     <ion-item>
       <ion-label position="floating">Número 2</ion-label>
-      <ion-input type="number"></ion-input>
+      <ion-input [(ngModel)]="calculadora.numero2" type="number"></ion-input>
     </ion-item>
     
     <ion-grid>
       <ion-row>
         <ion-col>
-          <ion-button expand="full" color="warning">+</ion-button>
+          <ion-button (click)="calcular('+')" expand="full" color="warning">+</ion-button>
         </ion-col>
         <ion-col>
-          <ion-button expand="full" color="warning">-</ion-button>
+          <ion-button (click)="calcular('-')"expand="full" color="warning">-</ion-button>
         </ion-col>
         <ion-col>
-          <ion-button expand="full" color="warning">*</ion-button>
+          <ion-button (click)="calcular('*')"expand="full" color="warning">*</ion-button>
         </ion-col>
         <ion-col>
-          <ion-button expand="full" color="warning">/</ion-button>
+          <ion-button (click)="calcular('/')"expand="full" color="warning">/</ion-button>
         </ion-col>
       </ion-row>
     </ion-grid>
 
     <ion-item>
       <ion-label position="floating">Resposta</ion-label>
-      <ion-input type="number"></ion-input>
+      <ion-input [(ngModel)]="resp" type="number"></ion-input>
     </ion-item>
 </ion-content>
